@@ -1,2 +1,4 @@
-﻿application.properties
-GeminiConfig.java
+﻿frontend/node_modules/
+frontend/.env
+application.properties
+waterbilling/src/main/java/com/water/waterbilling/config/GeminiConfig.java

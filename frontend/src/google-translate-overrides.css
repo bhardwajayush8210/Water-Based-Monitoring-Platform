@@ -1,0 +1,25 @@
+/* Hides Google's own translate banner/toolbar and the layout shift it
+   normally causes at the top of the page - our custom LanguageSwitcher
+   drives the hidden widget instead of showing Google's default UI. */
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+#google_translate_element {
+  display: none !important;
+}
+
+.goog-tooltip,
+.goog-tooltip:hover {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background: none !important;
+  box-shadow: none !important;
+}
